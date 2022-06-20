@@ -1,0 +1,3 @@
+FROM openjdk:8
+EXPOSE 9765
+ADD target/api-gateway.jar api-gateway.jar
